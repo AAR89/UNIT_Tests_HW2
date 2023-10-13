@@ -27,6 +27,7 @@ class VehicleTest {
     @Test
     public void checkCarWHeels() {
         Car car = new Car("BMW", "M5", 2023);
+
         assertEquals(4, car.getNumWheels());
     }
 
@@ -37,6 +38,7 @@ class VehicleTest {
     @Test
     public void checkMotorcycleWHeels() {
         Motorcycle motorcycle = new Motorcycle("Kawasaki", "KX250X", 2020);
+
         assertEquals(2, motorcycle.getNumWheels());
     }
 
@@ -48,7 +50,6 @@ class VehicleTest {
     public void checkCarDriveSpeed() {
         Car car = new Car("BMW", "M5", 2023);
         car.testDrive();
-        ;
 
         assertEquals(60, car.getSpeed());
     }
