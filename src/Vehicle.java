@@ -1,5 +1,3 @@
-package seminars.second.hw;
-
 public abstract class Vehicle {
     private String company;
     private String model;

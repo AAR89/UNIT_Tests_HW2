@@ -1,14 +1,7 @@
 
-import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.ClassBasedNavigableIterableAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
-
-import org.assertj.core.api.Assertions;
-import seminars.second.hw.Car;
-import seminars.second.hw.Motorcycle;
-import seminars.second.hw.Vehicle;
 
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.junit.Assert.assertThat;
